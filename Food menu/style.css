@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f8e3e3;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.menu-option {
+    border: none;
+    background-color: #fff;
+    color: #666;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.menu-option.active {
+    background-color: #fff;
+    color: #666;
+}
+
+.menu-option:hover {
+    background-color: #ffc107;
+}
+
+.menu-item-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 600px;
+    max-width: 200px;
+}
+
+.menu-item-card img {
+    width: 267px;
+    height: 167px;
+    margin-right: 20px;
+    border: 3px solid #ffc107;
+    border-radius: 5px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}

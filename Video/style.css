@@ -1,0 +1,17 @@
+.custom-container {
+    max-width: 100px;
+    margin: 0 auto;
+}
+   
+.custom-controls {
+    margin-top: 10px;
+}
+   
+.custom-controls button {
+    margin-right: 10px;
+}
+
+#customVideo {
+    height: 200px;
+    width: 600px;
+}
